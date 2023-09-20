@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <title>Zad e Raah </title>
     <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
 </head>
+
 <body>
     <header id="header">
         <nav class="navbar">
@@ -25,26 +27,27 @@
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="#footer">Connect with us</a></li>
                 </ul>
-              <div class="heading">
-                  <h1 class="heading-text"> Zaad-e-Raah </h1><img src="./img/logo.png" alt="" class="logo"> </div>
-            </div>    
-        </nav> 
+                <div class="heading">
+                   <img src="./img/logo.png" alt="" class="logo"> <h1 class="heading-text"> Zaad-e-Raah </h1>
+                </div>
+            </div>
+        </nav>
         <div class="showcase">
             <h2 class="text-blue">Develop a passion to learn new things</h2>
             <p class="text-white"> We teach every concept from scratch and make sure you understand everything well.</p>
             <a href="#courses" class="btn btn-primary">Explore Courses</a>
 
-           <!--  <div class="registration">
+            <!--  <div class="registration">
                 <h3>Class 10th (Mathematics)</h3>
                 <p><a href="https://docs.google.com/forms/d/1M0GdrL3hyWyHBrRiuO5EoQYxcprvIMX4OY4UflVzTCo/" target="_blank">Register Now</a></p>
             </div> -->
-        </div>  
+        </div>
 
-        
+
     </header>
 
 
-   <!-- <section id="courses">
+    <!-- <section id="courses">
         <div class="container">
             <h1 class="heading">Our Courses</h1>
             <div class="courses-wrapper">
@@ -92,7 +95,7 @@
     <section id="tutors">
         <h2 class="tutors-title">Our Team</h2>
         <div class="tutors-container container">
-            <div class="tutors-box">                
+            <div class="tutors-box">
                 <div class="tutor-details">
                     <div class="tutor-photo">
                         <img src="./img/team-three.png" alt="">
@@ -101,7 +104,7 @@
                     <p>MS(CS)</p>
                 </div>
             </div>
-            <div class="tutors-box">                
+            <div class="tutors-box">
                 <div class="tutor-details">
                     <div class="tutor-photo">
                         <img src="./img/team-one.png" alt="">
@@ -110,7 +113,7 @@
                     <p>B.Tech(ECE)</p>
                 </div>
             </div>
-            <div class="tutors-box">                
+            <div class="tutors-box">
                 <div class="tutor-details">
                     <div class="tutor-photo">
                         <img src="./img/team-two.png" alt="">
@@ -118,14 +121,14 @@
                     <p class="tutor-name">ABC</p>
                     <p>BS(CS)</p>
                 </div>
-            </div>       
+            </div>
         </div>
     </section>
 
     <section id="contact">
         <div class="contact-container container">
             <div class="contact-image">
-                <img src="./img/cont.jpg" alt="">                
+                <img src="./img/cont.jpg" alt="">
             </div>
             <div class="form-container">
                 <h2>Contact Us</h2>
@@ -138,43 +141,44 @@
     </section>
 
     <footer id="footer">
-        <div class="social-media-links">        
-            <a href="https://www.facebook.com/profile.php?id=61551464995292" target="_blank"><i class="fab fa-facebook fa-4x"></i></a>         
-            <a href="https://www.instagram.com/zade_rah/" target="_blank"><i class="fab fa-instagram fa-4x"></i></a>         
-            <a href="https://www.linkedin.com/in/zad-e-rah-323523291/" target="_blank"><i class="fab fa-linkedin fa-4x"></i></a>         
-            <a href="https://twitter.com/Zadde_rah" target="_blank"><i class="fab fa-twitter fa-4x"></i></a>         
+        <div class="social-media-links">
+            <a href="https://www.facebook.com/profile.php?id=61551464995292" target="_blank"><i class="fab fa-facebook fa-4x"></i></a>
+            <a href="https://www.instagram.com/zade_rah/" target="_blank"><i class="fab fa-instagram fa-4x"></i></a>
+            <a href="https://www.linkedin.com/in/zad-e-rah-323523291/" target="_blank"><i class="fab fa-linkedin fa-4x"></i></a>
+            <a href="https://twitter.com/Zadde_rah" target="_blank"><i class="fab fa-twitter fa-4x"></i></a>
 
         </div>
-        <p>Zaad e Rah  &copy; 2023, All Rights Reserved</p>
+        <p>Zaad e Rah &copy; 2023, All Rights Reserved</p>
     </footer>
 
     <!-- ########## for smooth scrolling ##########  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+    <script>
+        $(document).ready(function() {
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
 
-      // Store hash
-      var hash = this.hash;
+                    // Store hash
+                    var hash = this.hash;
 
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function() {
 
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script>
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
 </body>
+
 </html>
