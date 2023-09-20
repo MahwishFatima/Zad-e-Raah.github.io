@@ -44,6 +44,9 @@ body{
 .text-blue{
     color: rgba(6, 143, 255, 1);
 }
+.text-black{
+    color: rgba(0, 0, 0, 0);
+}
 .text-gray{
     color: rgba(51, 51, 51, 0.74);
 }
